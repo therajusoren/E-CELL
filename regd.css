@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    max-width: 650px;
+    padding: 28px;
+    margin: 0 200px;
+    box-shadow: 0 15px 15px #357fc8dd;
+}
+h2{
+    font-size: 26px;
+    font-weight:600;
+    text-align: left;
+    color: #1c221d;
+    padding-bottom: 8px;border-bottom: 1px solid silver;
+
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-bettween;
+    padding: 20px 0;
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.input-box:nth-child(2n){
+    justify-content: end;
+}
+.input-box label, .gender-title{
+    width: 95%;
+    color: #2f4f4f;
+    font-weight: bold;
+    margin: 5px 0;
+
+}
+.gender-title{
+    font-size: 16px;
+}
+.input-box input{
+    height: 40px;
+    width: 95%;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+}
+.button-container button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    color:beige;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #aa076b, #61045f);
+}
+.button-container button:hover{
+    background-image: linear-gradient(to right,);
+
+}
